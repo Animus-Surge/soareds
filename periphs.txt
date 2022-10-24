@@ -1,0 +1,26 @@
+List of devices and peripherals and their descriptions
+
+Root Device:
+    The root device is the brains of the SOAREDS ecosystem. The device hosts
+    its own private network that all peripheral hubs connect to. It has
+    expansion ports to add peripherals directly, or peripheral hubs can be
+    added to the ecosystem network through the web console or the built-in
+    console.
+
+Peripheral Hubs:
+    Peripheral hubs are the devices that connect to the ecosystem network. All
+    peripheral hubs have at least one expansion port to add a peripheral, such
+    as an interface or an outlet controller. Behaviors of peripheral hubs can
+    be modified on the fly through the web console.
+
+Peripherals:
+    Peripherals are the primary I/O devices that are a part of the network.
+    They run on a 2-wire (I2C) interface with the hub that they are connected
+    to. Each peripheral will be designed to perform a single function, whether
+    that's to turn on or off a light or control the thermostat.
+
+    List of planned peripherals:
+        Screen interface - Device that displays information about the functions
+                    of the current device
+        Switch controller - Device that acts like a wall switch
+        Outlet controller - Device that controls the state of a wall outlet

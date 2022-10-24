@@ -1,5 +1,5 @@
 [package]
-name = "SOAREDS"
+name = "soareds"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 gl33 = { version = "0.2.1" }
-glfw = { version = "0.45.0", features = ["all"] }
+sdl2 = "0.35.2"
 
