@@ -1,5 +1,5 @@
-
 pub mod util {
+
     use std::ffi::CString;
 
     pub fn cstr_whitespace(len: usize) -> CString {

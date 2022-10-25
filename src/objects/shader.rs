@@ -1,6 +1,8 @@
+
+#[allow(dead_code, unused)]
 pub mod shader {
     use std::ffi::{CStr, CString};
-    use gl::*;
+    use gl;
 
     pub struct Shader {
         id: gl::types::GLuint

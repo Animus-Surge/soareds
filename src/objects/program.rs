@@ -1,8 +1,10 @@
+
+#[allow(dead_code, unused)]
 pub mod program {
     use crate::objects::shader::*;
-    use std::ffi::{CStr, CString};
-    use gl::*;
     use crate::util::util::cstr_whitespace;
+
+    use gl;
 
     pub struct Program {
         id: gl::types::GLuint
